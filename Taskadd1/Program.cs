@@ -19,11 +19,11 @@ void shifArrPos(int[]col,int shift) //Сдвиг массима на N пози�
 // int arrAdd(int count)// Создание массива из count чисел от 1 до 100
 // {
 //     int[] arr = new int[count];
-//     for (int i = 0; i < arr.Length; i++)
+//     for (int i = 0; i < count; i++)
 //     {
 //         arr[i] = new Random().Next(1, 101);
 //     }
-//     return arr[count];
+//     return arr;
 
 // }
 
@@ -41,5 +41,4 @@ for (int i = 0; i <arr.Length; i++)
 // int []arr = arrAdd(10);
 Console.WriteLine($"[{String.Join(",",arr)}]");
 shifArrPos(arr,shift);
-
 Console.WriteLine($"[{String.Join(",",arr)}]");
